@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.box{
+  height: 220px;
+  width: 200px;
+  padding: 15px;
+  border-radius: 4px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.if_parent{
+    /* border: 2px solid black; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center ;
+  gap: 20px;
+  padding: 40px;
+  background-color: gray;
+}
+
+.box h1 {
+  font-size: 20px;
+}

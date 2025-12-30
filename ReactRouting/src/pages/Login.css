@@ -1,0 +1,30 @@
+.container {
+    height: 100vh;
+    /* background: linear-gradient(to right, #ffff00, #f8ea47, #f0d465, #e7bf7c, #ddaa8f, #d095a1, #c280b2, #b26cc2, #9d56d2, #8440e1, #6028f0, #0000ff);   */
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.container .login {
+    min-height: 80%;
+    width: 30%;
+    /* background-color: skyblue; */
+    box-shadow: 0px 0px 6px black ;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .login .green {
+    background-color: green;
+    height: 75vh;
+    width: 90%;
+}
+
+.green #heading {
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}

@@ -1,0 +1,61 @@
+.con {
+    min-height: 100vh;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    border-radius: 4px;
+    /* background-color: red; */
+    height: 75vh;
+    width: 56vw;
+    display: flex;
+    box-shadow: 0px 0px 5px black;
+}
+
+.one {
+    padding: 15px;
+    font-weight: normal;
+    /* background-color: green; */
+    width: 50%;
+}
+
+.two {
+    width: 50%;
+    background-color: rgb(51, 51, 157);
+}
+
+.one .o {
+    color: blue;
+    font-size: 18px;
+    margin-top: 10px;
+
+}
+
+.one select {
+    margin-top: 30px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.inputf input {
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.m {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.one .position {
+    margin-top: 20px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid black;
+}

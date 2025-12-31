@@ -8,6 +8,7 @@ import Profile from "./pages/Profile"
 import Header from "./components/Header"
 import PageNotFound from "./pages/PageNotFound"
 import Footer from "./components/Footer"
+import Register from "./pages/Register"
 
 
 const App = () => {
@@ -23,6 +24,7 @@ const App = () => {
           <Route path='/profile' element={<Profile />}/>
           <Route path='/login' element={<Login />}/>
           <Route path='/product' element={<Product />}/>
+          <Route path='/register' element={<Register />}/>
           <Route path='*' element={<PageNotFound />}/>
         </Routes>
       </div>
